@@ -1,0 +1,16 @@
+{
+  "name": "twilio-box",
+  "version": "0.0.1",
+  "dependencies": {
+    "request": "*",
+    "express": "3.x",
+    "crypto": "0.0.3"
+  },
+  "scripts": {
+    "start": "server.js"
+  },
+  "engines": {
+    "node": "0.6.x"
+  },
+  "subdomain": "twilio-box"
+}
