@@ -3,12 +3,13 @@ twilio-box
 
 A Twilio app that lets people interact with the Voicebox API using SMS
 
-How to install:
+1. Copy the sample config file
 
 ```bash
 cp config.sample.js config.js
 ```
 
-Edit the config.js to include your account_sid, auth_key and phone number.
+2. Edit config.js to include your account sid, auth key and phone number.
+3. Wire up the SMS Request URL for your number to http://your.doma.in/processSMS
 
 That's it!
